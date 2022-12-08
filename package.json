@@ -1,8 +1,12 @@
 {
   "name": "vs-timer",
+  "publisher": "cxctxs",
   "displayName": "vs-timer",
   "description": "Shows how long vscode was open",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/cactoes/vscode-timer"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -14,7 +18,7 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-
+    
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
